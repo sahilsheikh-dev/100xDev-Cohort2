@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/w02.05-Express/node_modules
 /.pnp
 .pnp.js
 
