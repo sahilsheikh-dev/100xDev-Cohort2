@@ -1,0 +1,58 @@
+Your logic is like a doctor
+Learn by doing, lets create an in memory hospital
+You need to create 4 routes (4 things that the hospital can do)
+1. GET - User can check how many kidneys they have and their health
+2. POST - User can add a new kidney
+3. PUT - User can replace a kidney, make it healthy
+4. DELETE - User can remove a kidney
+
+Edge Cases
+1. What should happen if they try to delete when there are no kidneys?
+2. What should happen if they try to make a kidney healthy when all are
+already healthy
+
+
+-------------------------------------------------------------------------------------
+
+
+Here is a simple API project that you can develop without using database for practice by Harkirat Cohort 2.0!
+
+Solution: https://github.com/sahilsheikh-dev/100xDev-Cohort2/blob/main/w02.05-Express/index.js
+
+1. Create a Welcome API
+   - Endpoint: GET "/"
+   - Description: Create a simple API that returns a welcome message "Kidneys Details" when accessed.
+
+2. Implement a Get All Kidneys API
+   - Endpoint: GET "/getKidneys"
+   - Description: Develop an API that returns a list of all kidneys in the system.
+
+3. Build a Get Kidney by ID API
+   - Endpoint: GET "/getKidney"
+   - Description: Create an API that retrieves a specific kidney's details based on the provided ID as a query parameter.
+
+4. Develop an Add New Kidney API
+   - Endpoint: POST "/addKidney"
+   - Description: Implement an API that allows adding a new kidney to the system. Ensure that the ID is unique before adding.
+
+5. Create an Update Existing Kidney API
+   - Endpoint: PUT "/updateKidney"
+   - Description: Design an API that updates the details of an existing kidney based on the provided information in the request body.
+
+6. Implement an Update Kidney's Health Condition API
+   - Endpoint: PUT "/updateConditionTohealthy"
+   - Description: Develop an API that updates a kidney's condition to "Healthy" based on the provided ID as a query parameter.
+
+7. Build a Delete Kidney API
+   - Endpoint: DELETE "/deleteKidney"
+   - Description: Create an API that removes a kidney from the system based on the provided ID as a query parameter.
+
+8. Set Up Express Server and Middleware
+   - Description: Configure an Express server to run on port 3000 and set up necessary middleware like body-parser for handling JSON requests.
+
+9. Implement Error Handling
+   - Description: Add appropriate error handling for each API, returning suitable status codes and messages for different scenarios (e.g., 404 for not found, 400 for bad requests).
+
+10. Create a Data Structure for Kidneys
+    - Description: Design a data structure (array or anything) to store kidney information, including properties like id, name, description, price, and condition.
+	
