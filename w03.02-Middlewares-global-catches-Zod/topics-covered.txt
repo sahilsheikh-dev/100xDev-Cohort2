@@ -1,9 +1,0 @@
-1. Middlewares
-2. global catches
-3. Zod and Coercion in Zod
-4. Introuction Authentication
-
-
-
-Middlewares, global catches and Zod and Coercion in Zod
-

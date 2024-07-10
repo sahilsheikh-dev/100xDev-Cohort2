@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      async function getUserData() {
+        const response = await fetch("https://fakerapi.it/api/v1/persons").then(
+          (res) => {
+            return res.json();
+          }
+        );
+        console.log(response.data);
+        let fetchedDataElement = document.getElementById("fetched-data");
+        fetchedDataElement.innerHTML = JSON.stringify(response.data);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="getUserData()">Click to Fetch the Data</button>
+    <br />
+    <br />
+    <p id="fetched-data"></p>
+  </body>
+</html>

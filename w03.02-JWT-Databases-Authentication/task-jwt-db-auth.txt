@@ -1,0 +1,17 @@
+Project for today -
+    Let people sign up to your website Only allow signed in users to see people (create a dummy people list)
+
+A website which has 2 endpoints -
+    POST /signin
+        Body - {
+            username: string
+            password: string
+        }
+        Returns a json web token with username encrypted
+
+    GET users
+        Headers - Authorization header
+        Returns an array of all users if user is signed" (token is correct)
+        Returns 403 status code if not
+
+    Create a mongodb database collection perform the activity with databse

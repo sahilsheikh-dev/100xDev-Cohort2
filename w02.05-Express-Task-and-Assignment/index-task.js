@@ -1,7 +1,9 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
-const bodyParser = require("body-parser");
+
+app.use(express.json()); // The express. json() function is a middleware function used in Express. js applications to parse incoming JSON data from HTTP requests, a standard format for data transmission in web servers. Suppose we have created an API that sends data in JSON format.
 
 let kidneys = [
   {
