@@ -1,2 +1,16 @@
+Middlewares Assignment:
 Develop Amusement Park Middlewares for APIs to valid age, money, ticket to enjoy the ride
 APIs: 
+    Create a queue for a bunch of peoples with a data
+        {
+            name:
+            age:
+            money:
+            ticket:
+        }
+    Check each people in a queue if their age is above 12 to enjoy roller coaster ride
+        if yes then - Check each people in a queue if they have a ticket to enjoy roller coaster ride
+            if yes then - return he/her name enjoying the ride!
+            if no then - check if they have enough money to enjoy roller coaster ride
+                if yes then - update the ticket as purchased and returned 'ticket purchased and he/she enjoying the ride!'
+                if no then - return he/she cant enjoy the ride! because of lack of money!

@@ -1,0 +1,5 @@
+JWT Assignment:
+Ask user for email and password and check if the email and password are correct
+    1. Generate JWT
+    2. Decode JWT
+    3. Verifying JWT
