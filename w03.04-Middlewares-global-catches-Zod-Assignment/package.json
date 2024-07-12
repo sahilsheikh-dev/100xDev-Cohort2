@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "body-parser": "^1.20.2",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "zod": "^3.23.8"
   },
   "name": "w03.04-middlewares-assignment",
   "version": "1.0.0",
