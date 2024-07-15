@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const {
   createToDoSchema,
   changeStatusSchema,
@@ -13,6 +14,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 app.post("/createTodo", async (req, res) => {
   const createPayload = req.body;
