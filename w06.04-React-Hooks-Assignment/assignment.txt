@@ -1,0 +1,11 @@
+Create a ToDo App to maintain todos with functions like
+- Basic Features
+    create todo (using modals)
+    mark it as done (with checkbox)
+    list all todos (in a table)
+- Additional Features
+    update todo (using modals)
+    delete todo (with confirmation)
+    popup sigle todo on click (using modals).
+    filter todos by status (done or not done)
+    
